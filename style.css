@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.bloc {
+    width: 350px;
+    height: 550px;
+    border: 10px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #168030;
+}
+
+.bloc2 {
+    width: 350px;
+    height: 550px;
+    border: 10px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e47c26;
+}
+.bloc3 {
+    width: 350px;
+    height: 550px;
+    border: 10px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #213bac;
+}
+
+
+.bloc:hover {
+    transform: skew(10deg)
+               rotate(-15deg)
+               scale(1.25)
+               translate(-10px, 5px);
+}
+.bloc2:hover {
+    transform: skew(10deg)
+               rotate(-15deg)
+               scale(1.25)
+               translate(-10px, 5px);
+}
+.bloc3:hover {
+    transform: skew(10deg)
+               rotate(-15deg)
+               scale(1.25)
+               translate(-10px, 5px);
+}
